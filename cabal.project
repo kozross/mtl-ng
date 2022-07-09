@@ -1,0 +1,9 @@
+packages: ./mtl-ng.cabal
+
+test-show-details: direct
+
+package mtl-ng
+  ghc-options: -Werror
+
+package semigroupoids
+  documentation: true
