@@ -35,6 +35,7 @@ library
     MTL.Ask
     MTL.Local
     MTL.Reader
+    MTL.Tell
     MTL.Trans
 
   build-depends:

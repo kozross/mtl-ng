@@ -69,7 +69,7 @@ instance
   {-# INLINEABLE local #-}
   local f (ComposeLocalOuter g) = ComposeLocalOuter . local f $ g
 
--- | Similar to 'ComposeLocalInner', except we derive 'ApplyLocal' from the
+-- | Similar to 'ComposeLocalOuter', except we derive 'ApplyLocal' from the
 -- \'inner\' 'Apply' instead.
 --
 -- @since 1.0.0
